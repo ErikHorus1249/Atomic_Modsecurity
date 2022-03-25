@@ -6,7 +6,7 @@
 
 ## II. Cài đặt
 ## 1. Cài đặt NginX và Apache server web
-Quá trình cài đặt sesrver web thực hiện trên máy riêng biệt, đã cào NginX thì không cài Apache2 và ngược lại
+Quá trình cài đặt sesrver web thực hiện trên máy riêng biệt, đã cài đặt NginX thì không cài Apache2 và ngược lại
 
 ### 1.1. NginX
 
@@ -76,14 +76,14 @@ Chạy script cài đặt
     # wget -q -O - https://updates.atomicorp.com/installers/asl |sh
 ![](https://i.imgur.com/eUqf6BN.png)
 
-Nhấn **Enter** cho đến khi kết thúc điểu khản người dùng( mục này tương đối dài).
+Nhấn **Enter** cho đến khi kết thúc điều khoản người dùng( mục này tương đối dài).
 
 Sau khi quá trình cái đặt hoàn tất thực hiện Configure và Upgrade ASL:
 
 ![](https://i.imgur.com/X2L5RMB.png)
 
-Trong quá trình configure và upgrade cần phải điển một số thông tin sau đây:
-username và password **Atomic user** thông tin này được cấp qua mail xác nhận đăng kí thành công.
+Trong quá trình configure và upgrade cần phải thêm một số thông tin sau đây:
+Username và password **Atomicorp user** thông tin này được cấp qua mail xác nhận đăng kí thành công.
 
 ![](https://i.imgur.com/YiXj9ud.jpeg)
 
@@ -100,15 +100,15 @@ Thông tin địa chỉ email và tần suất gửi mail thông báo từ hệ 
 
 ![](https://i.imgur.com/ICv5s9E.jpeg)
 
-Thông tin về cài đặt và thiết lập luật tường lửa (các port inbound và outbound) có thể enter để hệ thống cài mặc định.
+Thông tin về cài đặt và thiết lập luật tường lửa (các port inbound và outbound) có thể **enter** để hệ thống cài mặc định.
 
 ![](https://i.imgur.com/eTiOJp2.png)
 
-Thông tin về kernel virtualization chọn mặc định: **Vmware**
+Thông tin về **Kernel update and virtualization settings** chọn mặc định: **Vmware**
 
 ![](https://i.imgur.com/m9YFxB2.png)
 
-Các mục còn lại chọn Default theo gợi ý khi cài đặt, chờ cài đặt hoàn tất thông qua thông báo PASS.
+Các mục còn lại chọn **Default** theo gợi ý khi cài đặt, chờ cài đặt hoàn tất thông qua thông báo **[PASS](h)**.
 ![](https://i.imgur.com/oUzKKNC.png)
 
 Sau khi nhận thông báo truy cập vào ASL web tại: [https://localhost:3000](https://localhost:3000) 
